@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Coffee Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
@@ -17,7 +16,7 @@
                 <button id="menu-close-btn" class="fas fa-times"></button>
 
                 <li class="nav-item">
-                    <a href="" class="nav-link">Home</a>
+                    <a href="" class="nav-link active">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="" class="nav-link">About</a>
@@ -40,9 +39,10 @@
         </nav>
     </header>
 
-    <section class="hero-section">
+    <!-----------------------Home Section------------------------>
+    <section class="home">
         <div class="section-content">
-            <div class="hero-details">
+            <div class="home-details">
                 <h2 class="title">Great Coffee</h2>
                 <h3 class="subtitle">Great Coffee</h3>
                 <p class="description">Make Coffee</p>
@@ -52,14 +52,15 @@
                     <a href="#" class="button contact-us">Contact Us</a>
                 </div>
 
-                <div class="hero-img-wrapper">
-                    <img src="" alt="" class="hero-image">
+                <div class="home-img-wrapper">
+                    <img src="" alt="" class="home-img">
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="about-section">
+    
+    <!-----------------------About Section------------------------>
+    <section class="about">
         <div class="section-content">
             <div class="about-img-wrapper">
                 <img src="" alt="" class="about-img">
@@ -73,6 +74,85 @@
                     <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-----------------------Menu Section------------------------>
+    <section class="menu">
+        <h2 class="section-title">Menu</h2>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="" alt="Hot Beverages.png" class="menu-img">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">grwjnribhrnibnrjnbijtrnnir</p>
+                </li>
+                <li class="menu-item">
+                    <img src="" alt="Hot Beverages.png" class="menu-img">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">grwjnribhrnibnrjnbijtrnnir</p>
+                </li>
+                <li class="menu-item">
+                    <img src="" alt="Hot Beverages.png" class="menu-img">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">grwjnribhrnibnrjnbijtrnnir</p>
+                </li>
+                <li class="menu-item">
+                    <img src="" alt="Hot Beverages.png" class="menu-img">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">grwjnribhrnibnrjnbijtrnnir</p>
+                </li>
+                <li class="menu-item">
+                    <img src="" alt="Hot Beverages.png" class="menu-img">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">grwjnribhrnibnrjnbijtrnnir</p>
+                </li>
+                <li class="menu-item">
+                    <img src="" alt="Hot Beverages.png" class="menu-img">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">grwjnribhrnibnrjnbijtrnnir</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-----------------------Contact Section------------------------>
+    <section class="contact-us">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>123 Captain Mw, Colombo</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>info@expresscoffeeshop.com</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>(+94) 456-7890</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Monday - Friday : 9.00 AM - 5.00 PM</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Saturday & Sunday : Closed</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>www.expresscoffeewebsite.com</p>
+                </li>
+            </ul>
+
+            <form action="" class="contact-form">
+                <input type="text" placeholder="Your Name" class="form-input" required>
+                <input type="email" placeholder="Your Email" class="form-input" required>
+                <textarea placeholder="Your Message" class="form-input" required></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
         </div>
     </section>
 
